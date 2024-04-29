@@ -1,0 +1,50 @@
+{
+    "Intents": [
+      {
+        "tag": "greetings",
+        "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going?"],
+        "responses": ["Hello!", "Hey there!", "Hi!", "Good day!", "What can I do for you?", "Hi! How can I assist you?", "Hey! How's your day going?"]
+      },
+      {
+        "tag": "farewell",
+        "patterns": ["bye", "goodbye", "see you later", "see you", "take care", "farewell"],
+        "responses": ["Goodbye!", "See you later!", "Take care!", "Bye!", "Farewell!", "Catch you later!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["thank you", "thanks", "appreciate it", "cheers"],
+        "responses": ["You're welcome!", "No problem!", "Anytime!", "Glad I could help!", "Cheers!"]
+      },
+      {
+        "tag": "about_me",
+        "patterns": ["tell me about yourself", "who are you", "what can you do", "introduce yourself"],
+        "responses": ["I'm a chatbot here to assist you with various tasks and questions.", "I'm your virtual assistant, ready to help whenever you need."]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["what's the weather like?", "how's the weather today?", "is it going to rain?", "weather forecast"],
+        "responses": ["The weather today is [weather_condition].", "It's currently [temperature] degrees Celsius with [weather_condition].", "The forecast predicts [forecast] with a temperature of [temperature]."]
+      },
+      {
+        "tag": "time",
+        "patterns": ["what time is it?", "do you have the time?", "can you tell me the time?", "current time"],
+        "responses": ["It's currently [current_time].", "The time is [current_time].", "The current time is [current_time]."]
+      },
+      {
+        "tag": "jokes",
+        "patterns": ["tell me a joke", "do you know any jokes?", "make me laugh", "humor me"],
+        "responses": ["Why don't scientists trust atoms? Because they make up everything!", "I told my wife she was drawing her eyebrows too high. She looked surprised.", "What's orange and sounds like a parrot? A carrot!", "Why couldn't the bicycle stand up by itself? It was two-tired!", "Parallel lines have so much in common. It’s a shame they'll never meet."]
+      },
+      {
+        "tag": "random_responses",
+        "patterns": ["I don't know", "maybe", "not sure", "possibly", "who knows"],
+        "responses": ["That's alright!", "No worries!", "It happens!", "Fair enough!", "We'll figure it out!"]
+      },
+      {
+        "tag": "gratitude_response",
+        "patterns": ["thanks for your help", "thank you for assisting me", "appreciate your support"],
+        "responses": ["You're welcome! It's my pleasure to help.", "No problem! Feel free to ask anytime.", "Glad I could assist you!"]
+      }
+    ]
+  }
+  
